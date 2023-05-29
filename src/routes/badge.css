@@ -16,7 +16,7 @@
 
 .badge{
     height: 80%;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,4 +68,20 @@ form{
 .error{
     background: red;
     display: none;
+}
+
+
+@media screen and (max-width:768px)
+{
+    .nomeIntervento{
+       width: 100%;
+       text-align: center;
+    }
+    .protezioneCivile{
+        width: 70%;
+        text-align: center;
+    }
+    input{
+        width: 80%;
+    };
 }

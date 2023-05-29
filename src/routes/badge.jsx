@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const Badge=()=>{
 
     const [codice, setCodice] = useState("")
-    const [nomeIntervento, setNomeIntervento] = useState("NOME INTERVENTO")
+    const [nomeIntervento, setNomeIntervento] = useState("GDI 2k23")
 
     const codici = [
         "0000108571",
@@ -60,8 +60,8 @@ const Badge=()=>{
                 <input type="submit" value="" style={{display: "none"}}/>
             </form>
 
-            <div className="correct" id="correct">Operazione Riuscita</div>
-            <div className="error" id="error">Operazione Fallita</div>
+            <div className="correct" id="correct" onClick={()=>{document.getElementById("correct").style.display="none"}}>Operazione Riuscita</div>
+            <div className="error" id="error" onClick={()=>{document.getElementById("error").style.display="none"}}>Operazione Fallita</div>
         </div>
         </div>
     )
