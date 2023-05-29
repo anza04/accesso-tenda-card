@@ -7,12 +7,8 @@ import {BrowserRouter as Router, Route, Link, createBrowserRouter, RouterProvide
 
 const router = createBrowserRouter([
   {
-    path: "/badge", 
+    path: "/", 
     element: <Badge />,
-  },
-  {
-    path: "/",
-    element: <Caricamento/>
   }
 ]);
 
