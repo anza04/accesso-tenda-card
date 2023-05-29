@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #006BB6;
+}
+
+.badge{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nomeIntervento{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.protezioneCivile{
+    font-size: 30px;
+    font-weight:medium;
+}
+
+input{
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct, .error{
+    width: 30%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.correct{
+    background: green;
+    display: none;
+}
+
+.error{
+    background: red;
+    display: none;
+}
